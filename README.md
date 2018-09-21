@@ -1,5 +1,5 @@
 # typora.io-theme-lora
-Repo to hold my Typora theme 
+Repo to hold my Typora.io (Markdown thickclient) theme (wide editor, and viewer)
 
 More about: https://theme.typora.io/theme/
 
