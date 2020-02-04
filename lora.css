@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import "night.css";
 @import "night/mermaid.dark.css";
 @import "night/codeblock.dark.css";
 @import "night/sourcemode.dark.css";
@@ -111,10 +112,12 @@ h1 {
 }
 
 h2 {
+    color: #4da15f;
     font-weight: 600;
 }
 
 h3 {
+    color: #528e5f;
     font-size:1.4rem
 	text-transform: uppercase;
 }
@@ -124,12 +127,12 @@ h5, h6 {
 }
 
 a {
-	color: #3ef866;
+	color: #61d97b;
 }
 
 [md-inline] a {
 	background-color: #222;
-	color: #3ef866;
+	color: #61d97b;
     text-decoration: none;
     padding: 4px;
     border-radius: 4px;
@@ -359,9 +362,11 @@ blockquote:before {
 
 
 pre.md-fences {
+    background: #333;
     padding: 10px 30px;
     margin-bottom: 20px;
-    border: 1px solid #3ef866;;
+    border: 1px dotted rgb(158,203,168);
+    border: 1px dotted rgba(158,203,168, 0.4);
     z-index: 1;
 }
 
